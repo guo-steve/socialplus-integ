@@ -1,0 +1,37 @@
+{
+  "name": "social-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@tsconfig/node16": "1.0.3",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "5.38.1",
+    "@typescript-eslint/parser": "5.38.1",
+    "dotenv": "^16.4.5",
+    "eslint": "8.24.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-n": "15.3.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-promise": "6.0.1",
+    "eslint-plugin-standard": "5.0.0",
+    "nodemon": "^3.1.7",
+    "prettier": "2.7.1",
+    "ts-node": "^10.9.2",
+    "typescript": "4.8.3"
+  },
+  "scripts": {
+    "lint": "eslint --fix src",
+    "start": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}

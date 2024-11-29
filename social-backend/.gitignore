@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+tmp/
+.nyc_output/
+coverage/
+.idea/
+.vscode/
+*.log
+*.bak
+.env*
+.node-version
